@@ -1,6 +1,6 @@
 {
   "name": "deepassign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "object.assign with deep clone",
   "main": "index.js",
   "scripts": {
