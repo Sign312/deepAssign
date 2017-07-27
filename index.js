@@ -1,6 +1,6 @@
 const deepAssign = (objTo, ...objs) => {
   objs.forEach(obj => {
-    deepAssignSingle(objTo, obj);
+    obj && deepAssignSingle(objTo, obj);
   });
   return objTo;
 };
